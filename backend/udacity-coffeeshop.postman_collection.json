@@ -1,0 +1,228 @@
+{
+	"info": {
+		"_postman_id": "8e4cf146-4554-4870-8765-e1db47489a5b",
+		"name": "udacity-coffeeshop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Manager",
+			"item": [
+				{
+					"name": "/drinks",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": ""
+						},
+						"description": "POST /drinks"
+					},
+					"response": []
+				},
+				{
+					"name": "/drinks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						},
+						"description": "Get Drinks"
+					},
+					"response": []
+				},
+				{
+					"name": "/drinks-details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						},
+						"description": "GET drinks-details"
+					},
+					"response": []
+				},
+				{
+					"name": "/drinks/1",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": ""
+						},
+						"description": "PATCH /drinks/1"
+					},
+					"response": []
+				},
+				{
+					"name": "/drinks/1",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": ""
+						},
+						"description": "DELETE drinks/1"
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjFIM0tmM21xU1RGYzRTZl9oUkJSMyJ9.eyJpc3MiOiJodHRwczovL3VkYWNpdHktY29mZmVlc2hvcC5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVjNGQyM2M0MWI0YWIwYzZjOTFlMDRmIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImlhdCI6MTU4OTk1OTUzMywiZXhwIjoxNTg5OTY2NzMzLCJhenAiOiJaSDNDT3VISFhnTEl4ZzEwZ3Y0UWFoZmJwSm5DUGFpNSIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmRyaW5rcyIsImdldDpkcmlua3MtZGV0YWlsIiwicGF0Y2g6ZHJpbmtzIiwicG9zdDpkcmlua3MiXX0.irYZNxojeQVIC4YXH5NID832f6X7btC9jQXgtWdpMMvWvJlyOEqk-K1wU4CrRurTRbUj3VzOsnYwShPVZPE-mA0xFjxZdJxhLgIZ652XcoWwSeAHgXatuumgO79v899YP2StNwlgAT0-btm6ol6D1JiPKmhlkw3v8LEsUSONjLt3psnekN5ytIfZ1SsXGCR9ne9mVTnqYIl-aCLyGQ8HrSH1BoPB3MelSPCtdbla1NQ0PACJDZ08bzVebf0yifZsW9LJk20d2Fwpdr0kXiFavIbcIJ_y_T7TR8sI1-31i64yMT8RX7h004E3FYIK_vX8XZc-Z57w60Y0l-_XuHV1tg",
+						"type": "string"
+					}
+				]
+			},
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "barista",
+			"item": [
+				{
+					"name": "/drinks",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": ""
+						},
+						"description": "POST /drinks"
+					},
+					"response": []
+				},
+				{
+					"name": "/drinks-details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						},
+						"description": "GET drinks-details"
+					},
+					"response": []
+				},
+				{
+					"name": "/drinks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						},
+						"description": "Get Drinks"
+					},
+					"response": []
+				},
+				{
+					"name": "/drinks/1",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": ""
+						},
+						"description": "PATCH /drinks/1"
+					},
+					"response": []
+				},
+				{
+					"name": "/drinks/1",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": ""
+						},
+						"description": "DELETE drinks/1"
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjFIM0tmM21xU1RGYzRTZl9oUkJSMyJ9.eyJpc3MiOiJodHRwczovL3VkYWNpdHktY29mZmVlc2hvcC5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWVjNGQyN2E0MWI0YWIwYzZjOTFlMTFiIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImlhdCI6MTU4OTk2MDMwNSwiZXhwIjoxNTg5OTY3NTA1LCJhenAiOiJaSDNDT3VISFhnTEl4ZzEwZ3Y0UWFoZmJwSm5DUGFpNSIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZ2V0OmRyaW5rcy1kZXRhaWwiXX0.rOsYbUsGRUK-cd-XDbjzSQVRT_NAWBPWm8HTR61LN74rlEMFLk3vPGV3W5CKeNXPhS0zAov4pj0pVAhA0F7F2gKifo3Ll7IKtPb54LPwSXETaVzHcPBVQ0sIaef6qHIKknIfe_l-iY5RgHCiZyhK1m74gfle9H1P8yncgJ1M-xs5Fawjj9uiYrzKGf2ehUP0h6G_PL956-QnTyZIeeWXN_ZCNktogx3LDTQGK0cmkkt_hnntKin23gVWlNUHioHdtPQrVDNDf2k_8jG6MNKfzXlisgmYkEOcsoAeTweJx-lro6OM0nrWc3vL7zZTXz2dEZZJxaKSQtZb-usUfj80wg",
+						"type": "string"
+					}
+				]
+			},
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "public",
+			"item": [
+				{
+					"name": "/drinks-details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						},
+						"description": "GET drinks-details"
+					},
+					"response": []
+				},
+				{
+					"name": "/drinks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						},
+						"description": "Get Drinks"
+					},
+					"response": []
+				},
+				{
+					"name": "/drinks",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": ""
+						},
+						"description": "POST /drinks"
+					},
+					"response": []
+				},
+				{
+					"name": "/drinks/1",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": ""
+						},
+						"description": "PATCH /drinks/1"
+					},
+					"response": []
+				},
+				{
+					"name": "/drinks/1",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": ""
+						},
+						"description": "DELETE drinks/1"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
